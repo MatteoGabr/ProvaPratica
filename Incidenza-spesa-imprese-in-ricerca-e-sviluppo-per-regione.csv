@@ -1,0 +1,361 @@
+Anno;Regione;Percentuale spesa imprese in ricerca e sviluppo
+1995;Piemonte;1.44
+1995;Valle d'Aosta;0.05
+1995;Lombardia;0.86
+1995;Trentino-Alto Adige;0.16
+1995;Veneto;0.24
+1995;Friuli-Venezia Giulia;0.63
+1995;Liguria;0.52
+1995;Emilia-Romagna;0.41
+1995;Toscana;0.31
+1995;Umbria;0.10
+1995;Marche;0.12
+1995;Lazio;0.59
+1995;Abruzzo;0.44
+1995;Molise;0.00
+1995;Campania;0.26
+1995;Puglia;0.16
+1995;Basilicata;0.09
+1995;Calabria;0.01
+1995;Sicilia;0.04
+1995;Sardegna;0.08
+1996;Piemonte;1.46
+1996;Valle d'Aosta;0.00
+1996;Lombardia;0.86
+1996;Trentino-Alto Adige;0.18
+1996;Veneto;0.23
+1996;Friuli-Venezia Giulia;0.63
+1996;Liguria;0.45
+1996;Emilia-Romagna;0.42
+1996;Toscana;0.31
+1996;Umbria;0.10
+1996;Marche;0.11
+1996;Lazio;0.64
+1996;Abruzzo;0.77
+1996;Molise;0.13
+1996;Campania;0.28
+1996;Puglia;0.15
+1996;Basilicata;0.08
+1996;Calabria;0.00
+1996;Sicilia;0.03
+1996;Sardegna;0.09
+1997;Piemonte;1.40
+1997;Valle d'Aosta;0.00
+1997;Lombardia;0.83
+1997;Trentino-Alto Adige;0.18
+1997;Veneto;0.20
+1997;Friuli-Venezia Giulia;0.59
+1997;Liguria;0.61
+1997;Emilia-Romagna;0.44
+1997;Toscana;0.24
+1997;Umbria;0.11
+1997;Marche;0.20
+1997;Lazio;0.62
+1997;Abruzzo;0.48
+1997;Molise;0.00
+1997;Campania;0.31
+1997;Puglia;0.15
+1997;Basilicata;0.07
+1997;Calabria;0.00
+1997;Sicilia;0.05
+1997;Sardegna;0.09
+1998;Piemonte;1.39
+1998;Valle d'Aosta;0.13
+1998;Lombardia;0.82
+1998;Trentino-Alto Adige;0.18
+1998;Veneto;0.21
+1998;Friuli-Venezia Giulia;0.64
+1998;Liguria;0.51
+1998;Emilia-Romagna;0.47
+1998;Toscana;0.23
+1998;Umbria;0.10
+1998;Marche;0.10
+1998;Lazio;0.59
+1998;Abruzzo;0.34
+1998;Molise;0.00
+1998;Campania;0.28
+1998;Puglia;0.11
+1998;Basilicata;0.08
+1998;Calabria;0.01
+1998;Sicilia;0.16
+1998;Sardegna;0.06
+1999;Piemonte;1.33
+1999;Valle d'Aosta;0.32
+1999;Lombardia;0.84
+1999;Trentino-Alto Adige;0.21
+1999;Veneto;0.21
+1999;Friuli-Venezia Giulia;0.52
+1999;Liguria;0.55
+1999;Emilia-Romagna;0.46
+1999;Toscana;0.29
+1999;Umbria;0.12
+1999;Marche;0.11
+1999;Lazio;0.58
+1999;Abruzzo;0.29
+1999;Molise;0.00
+1999;Campania;0.30
+1999;Puglia;0.11
+1999;Basilicata;0.15
+1999;Calabria;0.01
+1999;Sicilia;0.13
+1999;Sardegna;0.06
+2000;Piemonte;1.36
+2000;Valle d'Aosta;0.65
+2000;Lombardia;0.84
+2000;Trentino-Alto Adige;0.22
+2000;Veneto;0.24
+2000;Friuli-Venezia Giulia;0.52
+2000;Liguria;0.50
+2000;Emilia-Romagna;0.47
+2000;Toscana;0.30
+2000;Umbria;0.15
+2000;Marche;0.13
+2000;Lazio;0.59
+2000;Abruzzo;0.44
+2000;Molise;0.00
+2000;Campania;0.34
+2000;Puglia;0.13
+2000;Basilicata;0.18
+2000;Calabria;0.01
+2000;Sicilia;0.21
+2000;Sardegna;0.06
+2001;Piemonte;1.40
+2001;Valle d'Aosta;0.55
+2001;Lombardia;0.84
+2001;Trentino-Alto Adige;0.21
+2001;Veneto;0.29
+2001;Friuli-Venezia Giulia;0.52
+2001;Liguria;0.38
+2001;Emilia-Romagna;0.61
+2001;Toscana;0.36
+2001;Umbria;0.15
+2001;Marche;0.19
+2001;Lazio;0.50
+2001;Abruzzo;0.40
+2001;Molise;0.00
+2001;Campania;0.29
+2001;Puglia;0.12
+2001;Basilicata;0.40
+2001;Calabria;0.02
+2001;Sicilia;0.19
+2001;Sardegna;0.06
+2002;Piemonte;1.30
+2002;Valle d'Aosta;0.33
+2002;Lombardia;0.83
+2002;Trentino-Alto Adige;0.20
+2002;Veneto;0.31
+2002;Friuli-Venezia Giulia;0.43
+2002;Liguria;0.67
+2002;Emilia-Romagna;0.75
+2002;Toscana;0.34
+2002;Umbria;0.19
+2002;Marche;0.31
+2002;Lazio;0.52
+2002;Abruzzo;0.46
+2002;Molise;0.04
+2002;Campania;0.28
+2002;Puglia;0.12
+2002;Basilicata;0.17
+2002;Calabria;0.02
+2002;Sicilia;0.17
+2002;Sardegna;0.05
+2003;Piemonte;1.21
+2003;Valle d'Aosta;0.25
+2003;Lombardia;0.78
+2003;Trentino-Alto Adige;0.22
+2003;Veneto;0.30
+2003;Friuli-Venezia Giulia;0.47
+2003;Liguria;0.62
+2003;Emilia-Romagna;0.69
+2003;Toscana;0.36
+2003;Umbria;0.19
+2003;Marche;0.28
+2003;Lazio;0.47
+2003;Abruzzo;0.50
+2003;Molise;0.03
+2003;Campania;0.36
+2003;Puglia;0.14
+2003;Basilicata;0.20
+2003;Calabria;0.02
+2003;Sicilia;0.18
+2003;Sardegna;0.06
+2004;Piemonte;1.28
+2004;Valle d'Aosta;0.21
+2004;Lombardia;0.79
+2004;Trentino-Alto Adige;0.21
+2004;Veneto;0.28
+2004;Friuli-Venezia Giulia;0.52
+2004;Liguria;0.62
+2004;Emilia-Romagna;0.66
+2004;Toscana;0.35
+2004;Umbria;0.15
+2004;Marche;0.26
+2004;Lazio;0.43
+2004;Abruzzo;0.46
+2004;Molise;0.05
+2004;Campania;0.41
+2004;Puglia;0.15
+2004;Basilicata;0.20
+2004;Calabria;0.02
+2004;Sicilia;0.22
+2004;Sardegna;0.04
+2005;Piemonte;1.35
+2005;Valle d'Aosta;0.19
+2005;Lombardia;0.81
+2005;Trentino-Alto Adige;0.21
+2005;Veneto;0.29
+2005;Friuli-Venezia Giulia;0.52
+2005;Liguria;0.65
+2005;Emilia-Romagna;0.70
+2005;Toscana;0.35
+2005;Umbria;0.19
+2005;Marche;0.24
+2005;Lazio;0.51
+2005;Abruzzo;0.48
+2005;Molise;0.04
+2005;Campania;0.42
+2005;Puglia;0.15
+2005;Basilicata;0.21
+2005;Calabria;0.03
+2005;Sicilia;0.20
+2005;Sardegna;0.04
+2006;Piemonte;1.31
+2006;Valle d'Aosta;0.18
+2006;Lombardia;0.80
+2006;Trentino-Alto Adige;0.30
+2006;Veneto;0.35
+2006;Friuli-Venezia Giulia;0.54
+2006;Liguria;0.65
+2006;Emilia-Romagna;0.72
+2006;Toscana;0.34
+2006;Umbria;0.18
+2006;Marche;0.28
+2006;Lazio;0.50
+2006;Abruzzo;0.46
+2006;Molise;0.07
+2006;Campania;0.40
+2006;Puglia;0.15
+2006;Basilicata;0.21
+2006;Calabria;0.03
+2006;Sicilia;0.21
+2006;Sardegna;0.07
+2007;Piemonte;1.37
+2007;Valle d'Aosta;0.19
+2007;Lombardia;0.84
+2007;Trentino-Alto Adige;0.35
+2007;Veneto;0.50
+2007;Friuli-Venezia Giulia;0.63
+2007;Liguria;0.71
+2007;Emilia-Romagna;0.79
+2007;Toscana;0.41
+2007;Umbria;0.18
+2007;Marche;0.34
+2007;Lazio;0.56
+2007;Abruzzo;0.43
+2007;Molise;0.07
+2007;Campania;0.55
+2007;Puglia;0.16
+2007;Basilicata;0.17
+2007;Calabria;0.04
+2007;Sicilia;0.19
+2007;Sardegna;0.08
+2008;Piemonte;1.41
+2008;Valle d'Aosta;0.43
+2008;Lombardia;0.84
+2008;Trentino-Alto Adige;0.38
+2008;Veneto;0.68
+2008;Friuli-Venezia Giulia;0.73
+2008;Liguria;0.69
+2008;Emilia-Romagna;0.82
+2008;Toscana;0.46
+2008;Umbria;0.22
+2008;Marche;0.35
+2008;Lazio;0.61
+2008;Abruzzo;0.41
+2008;Molise;0.07
+2008;Campania;0.53
+2008;Puglia;0.18
+2008;Basilicata;0.17
+2008;Calabria;0.04
+2008;Sicilia;0.22
+2008;Sardegna;0.07
+2009;Piemonte;1.41
+2009;Valle d'Aosta;0.48
+2009;Lombardia;0.86
+2009;Trentino-Alto Adige;0.75
+2009;Veneto;0.69
+2009;Friuli-Venezia Giulia;0.84
+2009;Liguria;0.72
+2009;Emilia-Romagna;0.87
+2009;Toscana;0.54
+2009;Umbria;0.24
+2009;Marche;0.32
+2009;Lazio;0.65
+2009;Abruzzo;0.40
+2009;Molise;0.08
+2009;Campania;0.50
+2009;Puglia;0.20
+2009;Basilicata;0.17
+2009;Calabria;0.05
+2009;Sicilia;0.24
+2009;Sardegna;0.07
+2010;Piemonte;1.39
+2010;Valle d'Aosta;0.42
+2010;Lombardia;0.92
+2010;Trentino-Alto Adige;0.65
+2010;Veneto;0.68
+2010;Friuli-Venezia Giulia;0.80
+2010;Liguria;0.85
+2010;Emilia-Romagna;0.92
+2010;Toscana;0.56
+2010;Umbria;0.25
+2010;Marche;0.36
+2010;Lazio;0.59
+2010;Abruzzo;0.37
+2010;Molise;0.05
+2010;Campania;0.46
+2010;Puglia;0.19
+2010;Basilicata;0.15
+2010;Calabria;0.03
+2010;Sicilia;0.23
+2010;Sardegna;0.05
+2011;Piemonte;1.47
+2011;Valle d'Aosta;0.37
+2011;Lombardia;0.92
+2011;Trentino-Alto Adige;0.63
+2011;Veneto;0.69
+2011;Friuli-Venezia Giulia;0.81
+2011;Liguria;0.81
+2011;Emilia-Romagna;0.94
+2011;Toscana;0.58
+2011;Umbria;0.25
+2011;Marche;0.37
+2011;Lazio;0.53
+2011;Abruzzo;0.32
+2011;Molise;0.04
+2011;Campania;0.48
+2011;Puglia;0.18
+2011;Basilicata;0.09
+2011;Calabria;0.02
+2011;Sicilia;0.24
+2011;Sardegna;0.05
+2012;Piemonte;1.51
+2012;Valle d'Aosta;0.28
+2012;Lombardia;0.94
+2012;Trentino-Alto Adige;0.62
+2012;Veneto;0.70
+2012;Friuli-Venezia Giulia;0.82
+2012;Liguria;0.75
+2012;Emilia-Romagna;1.09
+2012;Toscana;0.60
+2012;Umbria;0.23
+2012;Marche;0.41
+2012;Lazio;0.52
+2012;Abruzzo;0.27
+2012;Molise;0.05
+2012;Campania;0.54
+2012;Puglia;0.19
+2012;Basilicata;0.08
+2012;Calabria;0.01
+2012;Sicilia;0.23
+2012;Sardegna;0.05
