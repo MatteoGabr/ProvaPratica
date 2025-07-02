@@ -57,8 +57,13 @@ df_partecipazione_aree = pd.merge(
 )
 
 # Raggruppa i dati per anno e somma le percentuali su tutte le regioni (somma totale nazionale)
-partecipazione_totale_nazionale = df_partecipazione_nazionale.groupby(['Anno'])['Percentuale'].mean().reset_index()
+partecipazione_totale_nazionale = df_partecipazione_nazionale.groupby(['Anno'])['Percentuale'].mean().reset_index() 
 partecipazione_totale_aree = df_partecipazione_aree.groupby(['Anno', 'area_geografica'])['Percentuale'].mean().reset_index()
+# reset_index() serve a trasformare l'indice creato dal groupby (in questo caso la colonna 'Anno') 
+# in una colonna normale del DataFrame. 
+# Questo permette di lavorare più facilmente con i dati, perché altrimenti 'Anno' sarebbe l'indice 
+# e non una colonna visibile come le altre.
+
 
 # Salva il DataFrame risultante nella tabella `partecipazione_totale_nazionale` del database
 # Sostituisce la tabella se esiste già
