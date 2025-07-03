@@ -45,6 +45,16 @@ CREATE TABLE IF NOT EXISTS partecipazione_totale_aree (
 )
 ''')
 
+# Crea la tabella per la spesa totale per area geografica (se non esiste)
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS spesa_totale_aree (
+    anno INTEGER,
+    area VARCHAR(50),
+    spesa_totale FLOAT,
+    PRIMARY KEY (anno, area)
+)
+''')
+
 # ------------------------------------------------------------------------------
 # Query e aggregazione dati
 # ------------------------------------------------------------------------------
@@ -56,14 +66,23 @@ FROM percentuale_partecipazione_lavoro p
 JOIN regioni r ON p.Regione_id = r.id
 '''
 
+query_join_spesa = '''
+SELECT p.Anno, p.Percentuale, r.area_geografica
+FROM percentuale_spesa_ricerca_sviluppo p
+JOIN regioni r ON p.Regione_id = r.id
+'''
+
 # Esegue la query di join e salva il risultato in un DataFrame
 df_partecipazione_joined = query_db(query_join)
+df_spesa_joined = query_db(query_join_spesa)
 
 # Calcola la media nazionale della partecipazione al lavoro per anno
-partecipazione_totale_nazionale = df_partecipazione_joined.groupby(['Anno'])['Percentuale'].mean().reset_index()
+partecipazione_totale_nazionale = df_partecipazione_joined.groupby(['Anno'])['Percentuale'].mean().round(2).reset_index()
 
 # Calcola la media della partecipazione al lavoro per anno e area geografica
-partecipazione_totale_aree = df_partecipazione_joined.groupby(['Anno', 'area_geografica'])['Percentuale'].mean().reset_index()
+partecipazione_totale_aree = df_partecipazione_joined.groupby(['Anno', 'area_geografica'])['Percentuale'].mean().round(2).reset_index()
+
+spesa_totale_aree = df_spesa_joined.groupby(['Anno', 'area_geografica'])['Percentuale'].mean().round(2).reset_index()
 
 # Nota su reset_index():
 # reset_index() trasforma l'indice creato da groupby in una colonna normale del DataFrame,
@@ -88,6 +107,14 @@ partecipazione_totale_aree.to_sql(
     if_exists='replace',
     index=False
 )
+
+spesa_totale_aree.to_sql(
+    'spesa_totale_aree',
+    conn,
+    if_exists='replace',
+    index=False
+)
+
 
 # Chiude la connessione al database
 conn.close()

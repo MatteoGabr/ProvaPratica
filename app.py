@@ -61,10 +61,21 @@ def get_partecipazione_totale_nazionale(da_anno: Optional[int] = None, a_anno: O
     @param da_anno: (opzionale) anno iniziale per il filtro
     @param a_anno: (opzionale) anno finale per il filtro
     @returns: Lista di dizionari con i dati di partecipazione per area
-    """
+"""
 @app.get("/partecipazione_aree")
 def get_partecipazione_totale_aree(da_anno: Optional[int] = None, a_anno: Optional[int] = None):
     query = "SELECT * FROM partecipazione_totale_aree"
+    params = []  # Lista vuota che verrà riempita se vengono passati gli anni
+    if da_anno and a_anno:
+        query += " WHERE Anno BETWEEN ? AND ?"
+        params.extend([da_anno, a_anno])
+    df = query_db(query, tuple(params))  # Conversione della lista in tupla prima dell'esecuzione
+    return df.to_dict(orient='records')
+
+
+@app.get('/spesa_aree')
+def get_spesa_area_geografica(da_anno: Optional[int] = None, a_anno: Optional[int] = None):
+    query = "SELECT * FROM spesa_totale_aree"
     params = []  # Lista vuota che verrà riempita se vengono passati gli anni
     if da_anno and a_anno:
         query += " WHERE Anno BETWEEN ? AND ?"
